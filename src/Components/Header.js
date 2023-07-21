@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/style.css'; 
+import '../styles/style.css'; 
 
 const Header = () => {
   return (
@@ -13,22 +15,7 @@ const Header = () => {
         </a>
         <a href="#" className="nav-trigger w-inline-block">
           <div className="html-embed-3 w-embed">
-            <style type="text/css">
-              .nav-trigger__squig {
-                stroke-dasharray: 100;
-                stroke-dashoffset: 100;
-                transition: stroke-dashoffset 600ms ease-in-out;
-              }
-              .nav-trigger:hover .nav-trigger__squig {
-                stroke-dashoffset: 0;
-              }
-              .nav-trigger__top {
-                transition: transform 600ms ease-in-out;
-              }
-              .nav-trigger:hover .nav-trigger__top {
-                transform: translateX(100px);
-              }
-            </style>
+
             <svg alt="navigation" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g>
                 <line className="nav-trigger__top" x1="1.74846e-07" y1="8" x2="46" y2="8" stroke="currentColor" strokeWidth="3"></line>
@@ -43,6 +30,11 @@ const Header = () => {
       </div>
     </header>
   );
+};
+
+export default Header;
+
+
 };
 
 export default Header;
