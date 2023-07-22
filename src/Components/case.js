@@ -37,3 +37,11 @@ const Case = () => {
  <path class="stroke noscaling" vector-effect="non-scaling-stroke" d="M299.365,4112.217c19.4377-17.5258,48.10309-10.61164,48.10309,17.47893,0,13.34813-13.00694,25.79268-22.72779,19.16591-16.37453-11.16263,14.78039-51.586,72.77484-34.06023" transform="translate(-298.36058 -4086.41904)"></path>
   <polyline class="stroke noscaling" vector-effect="non-scaling-stroke" points="71.833 1.061 99.155 28.383 71.833 55.704"></polyline>
 </svg></div></div></div></section>
+  };
+
+export default Case;
+
+
+};
+
+export default Case;
