@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="App">
      <Header/>
-      <Video/>
-      <Case/>
+    <Case/>  
+    <Video/> 
       <Service/>
       <Footer/>
     </div>
